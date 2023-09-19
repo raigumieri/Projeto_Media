@@ -1,0 +1,14 @@
+//Criando mixins
+@mixin tituloPadrao{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #8844EE;
+}
+
+@mixin circulo($tamanho){
+    width: $tamanho;
+    height: $tamanho;
+    border-radius: $tamanho / 2;
+    overflow: hidden;
+}
